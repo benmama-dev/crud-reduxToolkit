@@ -1,5 +1,5 @@
 # crud-reduxToolkit
 crud-reduxToolkit
 
-install project 
+install project:
 npm install 
