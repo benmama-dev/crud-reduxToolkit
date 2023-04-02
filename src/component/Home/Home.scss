@@ -1,0 +1,75 @@
+.container {
+  min-height: 100vh;
+  background-color: rgb(52, 48, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .area {
+    background-color: white;
+    width: 50%;
+    padding: 20px;
+    border-radius: 5px;
+
+    .area01 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      h1 {
+        margin-bottom: 10px;
+      }
+
+      .btn-create {
+        background-color: rgb(75, 209, 75);
+        padding: 10px 20px;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+
+        &:hover {
+          background-color: green;
+        }
+      }
+    }
+
+    .table {
+      margin-top: 20px;
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    td,
+    th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 15px;
+      align-items: center;
+      justify-content: center;
+
+      .btn-blue {
+        background-color: rgb(63, 63, 218);
+        color: white;
+        padding: 10px 20px;
+        margin-right: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+
+        &:hover {
+          background: blue;
+        }
+      }
+      .btn-red {
+        background-color: rgb(224, 87, 87);
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+
+        &:hover {
+          background: red;
+        }
+      }
+    }
+  }
+}

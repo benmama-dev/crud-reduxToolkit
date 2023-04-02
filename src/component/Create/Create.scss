@@ -1,0 +1,58 @@
+.container {
+  .area001 {
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+
+    .area-normal {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+
+      .btn-black {
+        padding: 10px 20px;
+        background-color: rgb(253, 46, 46);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+
+        &:hover {
+          background-color: red;
+        }
+      }
+    }
+
+    .from-control {
+      display: flex;
+      flex-wrap: wrap;
+
+      label {
+        font-size: 20px;
+      }
+
+      input {
+        width: 100%;
+        font-size: 15px;
+        margin-bottom: 10px;
+        padding: 5px;
+      }
+    }
+
+    .btn-success {
+      width: 100%;
+      padding: 10px 20px;
+      color: white;
+      background-color: blueviolet;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+
+      &:hover {
+        background-color: purple;
+      }
+    }
+  }
+}
